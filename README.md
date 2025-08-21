@@ -88,14 +88,17 @@ python database_setup.py
 
 ### 4️⃣ Run Streamlit App
 streamlit run app.py
+
 ---
-###📊 Deliverables
+## 📊 Deliverables
 ✅ Cleaned datasets (clean/)
 ✅ Rejected datasets (rejects/)
 ✅ Cleaning report (reports/)
 ✅ SQL schema & queries (create_tables.sql, queries.sql)
 ✅ Streamlit application (app.py)
+
 ---
-##👨‍💻 Author
+## 👨‍💻 Author
 Krishna Agarwal
+
 ---
