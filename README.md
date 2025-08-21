@@ -76,3 +76,13 @@ The project uses 4 input datasets (`.csv` files):
 ```bash
 cd "E:\Desktop\Projects\Food Waste Management"
 python clean_and_validate.py
+### 2️⃣ Setup Database
+
+Execute the provided SQL script (create_tables.sql) in your SQL environment.
+
+### 3️⃣ Load Data
+
+Import cleaned CSVs from clean/ into SQL tables.
+
+### 4️⃣ Run Streamlit App
+streamlit run app.py
