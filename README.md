@@ -72,18 +72,18 @@ The project uses 4 input datasets (`.csv` files):
 
 ## 🚀 How to Run the Project  
 
-### 1️⃣ Run Data Cleaning  
 ```bash
+# 1️⃣ Run Data Cleaning
 cd "E:\Desktop\Projects\Food Waste Management"
 python clean_and_validate.py
-```bash
-### 2️⃣ Setup Database
 
-Execute the provided SQL script (create_tables.sql) in your SQL environment.
+# 2️⃣ Setup Database
+# Open your SQL client and run the schema script
+SOURCE create_tables.sql;
 
-### 3️⃣ Load Data
+# 3️⃣ Load Data
+# Load cleaned CSVs into the database
+python database_setup.py
 
-Import cleaned CSVs from clean/ into SQL tables.
-
-### 4️⃣ Run Streamlit App
+# 4️⃣ Run Streamlit App
 streamlit run app.py
