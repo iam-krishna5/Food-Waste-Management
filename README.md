@@ -79,12 +79,22 @@ cd "E:\Desktop\Projects\Food Waste Management"
 python clean_and_validate.py
 ```
 ### 2️⃣ Setup Database
-# Open your SQL client and run the schema script
+Open your SQL client and run the schema script
 SOURCE create_tables.sql;
 
 ### 3️⃣ Load Data
-# Load cleaned CSVs into the database
+Load cleaned CSVs into the database
 python database_setup.py
 
 ### 4️⃣ Run Streamlit App
 streamlit run app.py
+
+###📊 Deliverables
+✅ Cleaned datasets (clean/)
+✅ Rejected datasets (rejects/)
+✅ Cleaning report (reports/)
+✅ SQL schema & queries (create_tables.sql, queries.sql)
+✅ Streamlit application (app.py)
+
+##👨‍💻 Author
+Krishna Agarwal
