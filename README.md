@@ -76,6 +76,7 @@ The project uses 4 input datasets (`.csv` files):
 ```bash
 cd "E:\Desktop\Projects\Food Waste Management"
 python clean_and_validate.py
+```bash
 ### 2️⃣ Setup Database
 
 Execute the provided SQL script (create_tables.sql) in your SQL environment.
